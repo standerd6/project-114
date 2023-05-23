@@ -1,0 +1,23 @@
+canvas{
+    border: 2px dashed black;
+
+    animation-name: exam;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes exam
+{
+   from{box-shadow: 10px 10px 15px rgb(27, 3, 5);}
+   to{box-shadow: 10px 10px 15px rgb(139, 0, 0);}
+}
+
+h3
+{
+    font-size: 25px !important;
+}
+
+.btn-info:hover
+{
+    background-color: rgb(5, 226, 63);
+}
